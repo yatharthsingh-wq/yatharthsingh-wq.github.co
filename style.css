@@ -1,0 +1,18 @@
+body {font-family:'Montserrat',sans-serif;margin:0;padding:0;background:#fff;color:#233F63;font-size:12px;line-height:1.6}
+.navbar{display:flex;justify-content:center;align-items:center;padding:20px 50px;background:#F5F0F0}
+.logo{font-size:30px;font-weight:700;margin-right:auto}
+.navbar ul{list-style:none;display:flex;gap:30px;margin:0;padding:0}
+.navbar a{text-decoration:none;color:#233F63;font-weight:600;font-size:18px}
+.navbar a.active{border-bottom:2px solid #233F63}
+.hero{display:flex;justify-content:space-between;align-items:center;padding:60px 50px;flex-wrap:wrap}
+.hero-content{max-width:50%}
+.hero-content h1{font-family:'Poppins',sans-serif;font-size:22px;font-weight:700;margin-bottom:20px}
+.hero-content p{font-size:14px;margin-bottom:20px}
+.btn{background:#233F63;color:#fff;padding:10px 20px;border-radius:4px;text-decoration:none;font-size:14px}
+.hero-image img{max-width:400px;border-radius:8px}
+.difference h2,.offerings h2,.clients h2{font-family:'Poppins',sans-serif;font-size:22px;margin-bottom:20px}
+.offerings{text-align:center;padding:40px 20px}
+.offer-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:20px}
+.offer-item img{max-width:80px;margin-bottom:10px}
+.offer-item p{font-size:14px;font-weight:600}
+footer{text-align:center;padding:20px;background:#233F63;color:#fff;font-size:12px}
